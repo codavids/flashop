@@ -1,13 +1,14 @@
-# QA de Flashop — se ejecuta contra el sitio servido en local.
-# 1) python -m http.server 8123   (dentro de esta carpeta)
-# 2) chrome --headless=new --remote-debugging-port=9222 about:blank
-# 3) node _qa/verify.mjs          -> imprime JSON con DOM, carrito y errores de consola
-#
+// QA de Flashop — se ejecuta contra el sitio servido en local.
+// 1) python -m http.server 8123   (dentro de esta carpeta)
+// 2) chrome --headless=new --remote-debugging-port=9222 about:blank
+// 3) node _qa/verify.mjs          -> imprime JSON con DOM, carrito y errores de consola
+//
 // QA real de Flashop: DOM, errores de consola, carrito y capturas full-page (CDP).
+
 import fs from "node:fs";
 
 const SITE = process.env.SITE || "http://127.0.0.1:8123";
-const CDP = "http://127.0.0.1:9222";
+const CDP = process.env.CDP || "http://127.0.0.1:9222";
 const OUT = process.env.OUT || "./_qa/shots";
 fs.mkdirSync(OUT, { recursive: true });
 
