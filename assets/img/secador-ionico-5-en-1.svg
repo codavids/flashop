@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#0a1128"/><stop offset="1" stop-color="#04060d"/>
+</linearGradient>
+<radialGradient id="glow" cx="50%" cy="42%" r="58%">
+  <stop offset="0" stop-color="#008cff" stop-opacity=".55"/>
+  <stop offset="60%" stop-color="#008cff" stop-opacity=".12"/>
+  <stop offset="100%" stop-color="#008cff" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="stroke" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#ffffff" stop-opacity=".95"/>
+  <stop offset="55%" stop-color="#00d1ff" stop-opacity=".95"/>
+  <stop offset="100%" stop-color="#008cff" stop-opacity=".8"/>
+</linearGradient>
+<linearGradient id="platform" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#008cff" stop-opacity="0"/>
+  <stop offset="50%" stop-color="#00d1ff" stop-opacity=".55"/>
+  <stop offset="100%" stop-color="#008cff" stop-opacity="0"/>
+</linearGradient>
+<filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+  <feGaussianBlur stdDeviation="16"/>
+</filter>
+</defs>
+<rect width="800" height="800" fill="url(#bg)"/>
+<g stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"><path d="M0 0V800"/><path d="M64 0V800"/><path d="M128 0V800"/><path d="M192 0V800"/><path d="M256 0V800"/><path d="M320 0V800"/><path d="M384 0V800"/><path d="M448 0V800"/><path d="M512 0V800"/><path d="M576 0V800"/><path d="M640 0V800"/><path d="M704 0V800"/><path d="M768 0V800"/><path d="M0 0H800"/><path d="M0 64H800"/><path d="M0 128H800"/><path d="M0 192H800"/><path d="M0 256H800"/><path d="M0 320H800"/><path d="M0 384H800"/><path d="M0 448H800"/><path d="M0 512H800"/><path d="M0 576H800"/><path d="M0 640H800"/><path d="M0 704H800"/><path d="M0 768H800"/></g><g stroke="url(#platform)" stroke-opacity="0.22" stroke-width="2" stroke-linecap="round" filter="url(#soft)"><path d="M-120 128L160 0"/><path d="M-40 237L437 109"/><path d="M40 346L640 218"/><path d="M120 454L720 326"/><path d="M200 563L677 435"/><path d="M280 672L560 544"/></g><circle cx="400" cy="352" r="240" fill="url(#glow)"/><g opacity=".8"><path d="M96 640h608" stroke="url(#platform)" stroke-width="6" stroke-linecap="round" filter="url(#soft)"/><ellipse cx="400.0" cy="648" rx="224" ry="22" fill="#008cff" opacity=".16"/></g><g transform="translate(400,368) rotate(0) scale(1.05)" fill="none" stroke="url(#stroke)" stroke-linecap="round" stroke-linejoin="round" filter="url(#soft)" opacity=".45"><g>
+      <path d="M0 -170c58 74 84 118 84 158a84 84 0 0 1-168 0c0-40 26-84 84-158z" fill="none" stroke-width="12" stroke-linejoin="round"/>
+      <path d="M-30 30a32 32 0 0 0 30 42" fill="none" stroke-width="9" stroke-linecap="round" stroke-opacity=".6"/>
+      <path d="M132 -120l16 40 40 16-40 16-16 40-16-40-40-16 40-16z" fill="#00d1ff" stroke="none" opacity=".85"/>
+      <path d="M-140 -60l11 27 27 11-27 11-11 27-11-27-27-11 27-11z" fill="#ffffff" stroke="none" opacity=".55"/>
+    </g></g><g transform="translate(400,368) rotate(0) scale(1.05)" fill="none" stroke="url(#stroke)" stroke-linecap="round" stroke-linejoin="round"><g>
+      <path d="M0 -170c58 74 84 118 84 158a84 84 0 0 1-168 0c0-40 26-84 84-158z" fill="none" stroke-width="12" stroke-linejoin="round"/>
+      <path d="M-30 30a32 32 0 0 0 30 42" fill="none" stroke-width="9" stroke-linecap="round" stroke-opacity=".6"/>
+      <path d="M132 -120l16 40 40 16-40 16-16 40-16-40-40-16 40-16z" fill="#00d1ff" stroke="none" opacity=".85"/>
+      <path d="M-140 -60l11 27 27 11-27 11-11 27-11-27-27-11 27-11z" fill="#ffffff" stroke="none" opacity=".55"/>
+    </g></g><text x="772" y="774" text-anchor="end" font-family="Poppins,Segoe UI,sans-serif" font-size="20" font-weight="700" fill="#ffffff" fill-opacity=".34" letter-spacing="6">FLASHOP</text></svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 80" width="340" height="80">
+<defs>
+<linearGradient id="bolt" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#00d1ff"/><stop offset="1" stop-color="#008cff"/>
+</linearGradient>
+<linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#dbe9ff"/>
+</linearGradient>
+<filter id="lg" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="2.6"/></filter>
+</defs>
+<rect x="18" y="30" width="34" height="30" rx="7" fill="#ffffff"/>
+<path d="M27 30v-4a8 8 0 0 1 16 0v4" fill="none" stroke="#ffffff" stroke-width="3.2"/>
+<path d="M38 16l-13 22h8l-3 20 15-24h-8z" fill="url(#bolt)"/>
+<g filter="url(#lg)" opacity=".8"><path d="M38 16l-13 22h8l-3 20 15-24h-8z" fill="url(#bolt)"/></g>
+<text x="70" y="54" font-family="Poppins,Segoe UI,sans-serif" font-size="38" font-weight="800" fill="url(#txt)" letter-spacing="-1">Flashop</text>
+<text x="70" y="72" font-family="Inter,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#00d1ff" letter-spacing="2.2" opacity=".9">TU COMPRA EN UN FLASH</text>
+</svg>

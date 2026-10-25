@@ -1,0 +1,3 @@
+# Evidencia de las pruebas automatizadas (capturas PNG): no son parte del sitio.
+_qa/shots/
+_qa/*.log

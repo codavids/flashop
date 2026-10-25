@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="1200" height="520">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#0a1128"/><stop offset="1" stop-color="#04060d"/>
+</linearGradient>
+<radialGradient id="glow" cx="50%" cy="42%" r="58%">
+  <stop offset="0" stop-color="#008cff" stop-opacity=".55"/>
+  <stop offset="60%" stop-color="#008cff" stop-opacity=".12"/>
+  <stop offset="100%" stop-color="#008cff" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="stroke" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#ffffff" stop-opacity=".95"/>
+  <stop offset="55%" stop-color="#00d1ff" stop-opacity=".95"/>
+  <stop offset="100%" stop-color="#008cff" stop-opacity=".8"/>
+</linearGradient>
+<linearGradient id="platform" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#008cff" stop-opacity="0"/>
+  <stop offset="50%" stop-color="#00d1ff" stop-opacity=".55"/>
+  <stop offset="100%" stop-color="#008cff" stop-opacity="0"/>
+</linearGradient>
+<filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+  <feGaussianBlur stdDeviation="16"/>
+</filter>
+</defs>
+<rect width="1200" height="520" fill="url(#bg)"/>
+<g stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"><path d="M0 0V520"/><path d="M70 0V520"/><path d="M140 0V520"/><path d="M210 0V520"/><path d="M280 0V520"/><path d="M350 0V520"/><path d="M420 0V520"/><path d="M490 0V520"/><path d="M560 0V520"/><path d="M630 0V520"/><path d="M700 0V520"/><path d="M770 0V520"/><path d="M840 0V520"/><path d="M910 0V520"/><path d="M980 0V520"/><path d="M1050 0V520"/><path d="M1120 0V520"/><path d="M1190 0V520"/><path d="M0 0H1200"/><path d="M0 70H1200"/><path d="M0 140H1200"/><path d="M0 210H1200"/><path d="M0 280H1200"/><path d="M0 350H1200"/><path d="M0 420H1200"/><path d="M0 490H1200"/></g><g stroke="url(#platform)" stroke-opacity="0.22" stroke-width="2" stroke-linecap="round" filter="url(#soft)"><path d="M-180 83L240 0"/><path d="M-60 172L716 88"/><path d="M60 260L984 177"/><path d="M180 348L956 265"/><path d="M300 437L720 354"/></g><circle cx="888" cy="260" r="300" fill="url(#glow)"/><g transform="translate(936,270) scale(0.92)" fill="none" stroke="url(#stroke)" stroke-linecap="round" stroke-linejoin="round" opacity=".9"><g>
+      <rect x="-120" y="-150" width="240" height="300" rx="34" fill="none" stroke-width="11"/>
+      <path d="M-34 -120h68" stroke-width="11" stroke-linecap="round"/>
+      <path d="M-70 190h140" stroke-width="9" stroke-linecap="round" stroke-opacity=".5"/>
+      <circle cx="0" cy="10" r="46" fill="none" stroke-width="8" stroke-opacity=".55"/>
+      <path d="M-16 -8l32 34-22 6 14 30-34-30 22-8z" fill="#00d1ff" stroke="none"/>
+    </g></g><text x="70" y="239" font-family="Poppins,Segoe UI,sans-serif" font-size="72" font-weight="800" fill="#ffffff" letter-spacing="-2">NUEVO</text><text x="72" y="312" font-family="Inter,Segoe UI,sans-serif" font-size="34" font-weight="700" fill="#00d1ff">AirBass Pro — cancelación de ruido</text><rect x="70" y="354" width="260" height="58" rx="29" fill="#008cff" opacity=".18"/><text x="200" y="392" text-anchor="middle" font-family="Inter,Segoe UI,sans-serif" font-size="22" font-weight="800" fill="#ffffff">Envío gratis</text></svg>

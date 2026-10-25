@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Catálogo — Flashop | Envío gratis y pago contra entrega</title>
+<meta name="description" content="Explora el catálogo Flashop: tecnología, hogar, moda, belleza y más con descuentos y pago contra entrega en toda Colombia.">
+<meta name="theme-color" content="#05070f">
+<link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="categoria">
+
+<div id="site-header"></div>
+
+<div class="pagehead">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Ruta">
+      <a href="index.html">Inicio</a><span class="sep">/</span><span>Catálogo</span>
+    </nav>
+    <h1 id="catTitle">Todo el catálogo</h1>
+    <p id="catSub">Gadgets virales, hogar y tecnología con envío gratis a toda Colombia.</p>
+  </div>
+</div>
+
+<section style="padding:38px 0 80px">
+  <div class="wrap">
+    <div class="cats" id="chips" role="group" aria-label="Filtrar por categoría" style="margin-bottom:18px"></div>
+    <div class="toolbar">
+      <span class="count" id="count"></span>
+      <label style="display:flex;align-items:center;gap:10px;font-size:14px;color:var(--muted)">
+        Ordenar por
+        <select class="select" id="orden" aria-label="Ordenar productos">
+          <option value="relevancia">Más populares</option>
+          <option value="precio_asc">Precio: menor a mayor</option>
+          <option value="precio_desc">Precio: mayor a menor</option>
+          <option value="descuento">Mayor descuento</option>
+          <option value="nombre">Nombre (A-Z)</option>
+        </select>
+      </label>
+    </div>
+    <div class="grid" id="gridCategoria"></div>
+  </div>
+</section>
+
+<footer id="site-footer"></footer>
+
+<script src="assets/js/config.js"></script>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
