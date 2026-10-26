@@ -1,5 +1,10 @@
 # Flashop — tienda dropshipping (copia de línea gráfica)
 
+**Sitio publicado:** https://codavids.github.io/flashop/  ·  **Repositorio:** https://github.com/codavids/flashop
+
+> Deploy actual: GitHub Pages desde la rama `main` (solo front-end, sin backend).
+> Cada `git push` a `main` republica el sitio en ~1 minuto.
+
 Copia funcional de la estructura y el flujo de compra de `consiguelotienda.com`, con la
 identidad de marca de **Flashop** (la portada que enviaste): estética *dark tech* con azul
 eléctrico, eslogan **“Tu compra en un flash.”**, envío gratis y pago contra entrega.
